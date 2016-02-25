@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	font-size: 15px;
+}
+html{
+	background-color: #F7F2F2;
+}
+header{
+	margin: 0px auto;
+	width: 900px;
+	height: 150px;	
+	background-image: url(../../image/grass-cat.jpg);
+	background-position: -257px -134px;
+    background-size: 1200px 500px;
+    background-repeat: no-repeat;
+	
+}
+header a{
+	width: 120px;
+	height: 40px;
+	display: table-cell;
+	color: snow;
+	text-align: center;	
+	vertical-align: middle;
+	font-size: 15px;
+	line-height: 100%;
+	text-decoration: none;
+	transition: .5s;
+	/* background-color: rgba(0,0,0,.5); */
+}
+header a:hover{
+	background-color: rgba(111,111,111,.4);
+}
+.clean{
+	height: 110px;
+}
+.menu{
+	height: 40px;
+	background-color: rgba(0,0,0,.5);
+}
+.wraper{
+	width: 900px;
+	min-height: 500px;
+	margin: 0px auto;
+}
+.center{
+	width: 679px;
+	height: 500px;
+	float: left;
+	background-color: rgba(1,1,1,.5);
+	border-right: 1px solid black;
+}
+.sidebar{
+	width: 220px;
+	height: auto;
+	float: right;
+}
+.user-avatar{
+    width: 280px;
+    height: 280px;
+    background-color: #bbb;
+    position: relative;
+    left: -60px;
+    top: -150px;
+}
+.side-menu{
+	width: 220px;
+	height: auto;
+	position: relative;
+	top: -155px;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.user-avatar-img{
+    width: 280px;
+    height: 280px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+.sidebar a{
+	display: block;
+	width: 215px;
+	height: auto;
+	margin-top:5px;
+	text-align: left;
+	vertical-align: bottom;
+	transition: .2s;
+	padding-left: 5px;
+	color: black;
+}
+.sidebar a:hover{
+	margin-left: 3px;
+}
+.user-info{
+	width: 620px;
+	height: 200px;
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
